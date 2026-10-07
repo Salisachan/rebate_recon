@@ -1,0 +1,11 @@
+claim_id,supplier,claim_date,claim_amount
+C001,Acme Lighting,2026-06-03,1250.00
+C002,Acme Lighting,2026-06-10,480.50
+C003,Brightway Supply,2026-06-15,2100.00
+C004,Brightway Supply,2026-06-22,915.75
+C005,Lumen Co,2026-07-01,3300.00
+C006,Lumen Co,2026-07-08,640.00
+C007,Acme Lighting,2026-07-15,1785.25
+C008,Northstar Electric,2026-07-20,525.00
+C009,Northstar Electric,2026-08-02,1430.00
+C010,Lumen Co,2026-08-12,860.40
