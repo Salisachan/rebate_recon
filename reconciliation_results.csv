@@ -1,0 +1,201 @@
+claim_id,supplier,claim_date,claim_amount,amount_paid,owed,status,days_old,overdue
+C001,Acme Lighting,2026-06-03,1250.0,1250.0,0.0,Paid,128,False
+C002,Acme Lighting,2026-06-10,480.5,480.0,0.5,Paid,121,False
+C003,Brightway Supply,2026-06-15,2100.0,1500.0,600.0,Short paid,116,True
+C004,Brightway Supply,2026-06-22,915.75,0.0,915.75,Unpaid,109,True
+C005,Lumen Co,2026-07-01,3300.0,3300.0,0.0,Paid,100,False
+C006,Lumen Co,2026-07-08,640.0,400.0,240.0,Short paid,93,True
+C007,Acme Lighting,2026-07-15,1785.25,0.0,1785.25,Unpaid,86,True
+C008,Northstar Electric,2026-07-20,525.0,525.0,0.0,Paid,81,False
+C009,Northstar Electric,2026-08-02,1430.0,0.0,1430.0,Unpaid,68,True
+C010,Lumen Co,2026-08-12,860.4,860.4,0.0,Paid,58,False
+C011,Summit Controls,2026-05-29,725.18,725.18,0.0,Paid,133,False
+C012,Northstar Electric,2026-08-12,4453.0,0.0,4453.0,Unpaid,58,False
+C013,Acme Lighting,2026-07-12,3380.68,3380.68,0.0,Paid,89,False
+C014,Lumen Co,2026-09-22,3542.77,3542.77,0.0,Paid,17,False
+C015,Beacon Electrical,2026-06-23,1751.6,1707.3,44.3,Short paid,108,True
+C016,Metro Wire & Cable,2026-09-24,4384.25,4384.25,0.0,Paid,15,False
+C017,Northstar Electric,2026-07-11,1883.09,0.0,1883.09,Unpaid,90,True
+C018,Evergreen Components,2026-06-18,2584.42,0.0,2584.42,Unpaid,113,True
+C019,Beacon Electrical,2026-09-13,3548.76,0.0,3548.76,Unpaid,26,False
+C020,Northstar Electric,2026-05-14,1284.76,0.0,1284.76,Unpaid,148,True
+C021,Lumen Co,2026-05-25,2290.28,2378.78,-88.5,Overpaid,137,False
+C022,Brightway Supply,2026-09-18,2090.41,2067.09,23.32,Short paid,21,False
+C023,Metro Wire & Cable,2026-08-30,4048.42,4030.14,18.28,Short paid,40,False
+C024,Lumen Co,2026-08-05,1537.82,1537.82,0.0,Paid,65,False
+C025,Summit Controls,2026-09-10,2017.41,0.0,2017.41,Unpaid,29,False
+C026,Summit Controls,2026-07-30,766.8,766.8,0.0,Paid,71,False
+C027,Evergreen Components,2026-09-20,4308.04,4308.04,0.0,Paid,19,False
+C028,Beacon Electrical,2026-07-13,533.62,445.53,88.09,Short paid,88,True
+C029,Metro Wire & Cable,2026-08-16,751.36,751.36,0.0,Paid,54,False
+C030,Brightway Supply,2026-07-05,2452.6,2452.6,0.0,Paid,96,False
+C031,Metro Wire & Cable,2026-06-19,4277.78,4241.58,36.2,Short paid,112,True
+C032,Beacon Electrical,2026-07-28,2518.92,0.0,2518.92,Unpaid,73,True
+C033,Lumen Co,2026-05-14,1987.6,1987.6,0.0,Paid,148,False
+C034,Northstar Electric,2026-06-28,349.13,349.13,0.0,Paid,103,False
+C035,Acme Lighting,2026-07-03,1838.27,1838.27,0.0,Paid,98,False
+C036,Evergreen Components,2026-07-06,1939.78,1867.6,72.18,Short paid,95,True
+C037,Beacon Electrical,2026-07-20,2725.0,2725.0,0.0,Paid,81,False
+C038,Summit Controls,2026-05-31,3625.28,3625.28,0.0,Paid,131,False
+C039,Summit Controls,2026-09-14,2411.68,2376.72,34.96,Short paid,25,False
+C040,Brightway Supply,2026-07-01,1667.81,1618.74,49.07,Short paid,100,True
+C041,Lumen Co,2026-05-29,183.97,162.3,21.67,Short paid,133,True
+C042,Evergreen Components,2026-09-19,3640.8,0.0,3640.8,Unpaid,20,False
+C043,Metro Wire & Cable,2026-08-25,3090.04,3090.04,0.0,Paid,45,False
+C044,Beacon Electrical,2026-07-16,3258.4,3187.3,71.1,Short paid,85,True
+C045,Northstar Electric,2026-06-10,2528.2,2528.2,0.0,Paid,121,False
+C046,Lumen Co,2026-05-08,3004.82,3004.82,0.0,Paid,154,False
+C047,Metro Wire & Cable,2026-06-28,3760.57,0.0,3760.57,Unpaid,103,True
+C048,Lumen Co,2026-05-21,3141.48,3141.48,0.0,Paid,141,False
+C049,Beacon Electrical,2026-08-07,2268.83,2232.69,36.14,Short paid,63,True
+C050,Acme Lighting,2026-08-25,4291.28,0.0,4291.28,Unpaid,45,False
+C051,Evergreen Components,2026-05-01,4207.33,4207.33,0.0,Paid,161,False
+C052,Metro Wire & Cable,2026-06-29,3325.98,3306.25,19.73,Short paid,102,True
+C053,Beacon Electrical,2026-08-28,361.1,0.0,361.1,Unpaid,42,False
+C054,Summit Controls,2026-06-09,2495.23,2584.98,-89.75,Overpaid,122,False
+C055,Northstar Electric,2026-05-12,254.38,254.38,0.0,Paid,150,False
+C056,Northstar Electric,2026-08-14,759.53,0.0,759.53,Unpaid,56,False
+C057,Northstar Electric,2026-09-10,3276.48,3257.14,19.34,Short paid,29,False
+C058,Brightway Supply,2026-09-01,1303.18,1352.2,-49.02,Overpaid,38,False
+C059,Acme Lighting,2026-09-07,331.28,331.28,0.0,Paid,32,False
+C060,Acme Lighting,2026-09-21,2962.28,0.0,2962.28,Unpaid,18,False
+C061,Metro Wire & Cable,2026-07-02,3055.07,0.0,3055.07,Unpaid,99,True
+C062,Summit Controls,2026-09-11,1971.49,1971.49,0.0,Paid,28,False
+C063,Acme Lighting,2026-09-10,3474.59,3437.81,36.78,Short paid,29,False
+C064,Acme Lighting,2026-08-13,1789.28,1789.28,0.0,Paid,57,False
+C065,Metro Wire & Cable,2026-06-25,2878.72,2878.72,0.0,Paid,106,False
+C066,Metro Wire & Cable,2026-08-28,2999.99,3042.99,-43.0,Overpaid,42,False
+C067,Lumen Co,2026-07-10,1459.92,1490.74,-30.82,Overpaid,91,False
+C068,Evergreen Components,2026-06-07,3129.75,0.0,3129.75,Unpaid,124,True
+C069,Evergreen Components,2026-08-22,1954.28,0.0,1954.28,Unpaid,48,False
+C070,Northstar Electric,2026-07-02,4196.85,0.0,4196.85,Unpaid,99,True
+C071,Summit Controls,2026-09-05,1435.47,1500.18,-64.71,Overpaid,34,False
+C072,Acme Lighting,2026-09-18,3185.66,0.0,3185.66,Unpaid,21,False
+C073,Brightway Supply,2026-09-11,263.19,187.96,75.23,Short paid,28,False
+C074,Metro Wire & Cable,2026-05-26,1517.67,1517.67,0.0,Paid,136,False
+C075,Brightway Supply,2026-05-12,2998.15,3055.81,-57.66,Overpaid,150,False
+C076,Acme Lighting,2026-09-19,3998.63,3919.22,79.41,Short paid,20,False
+C077,Brightway Supply,2026-08-23,2243.93,2243.93,0.0,Paid,47,False
+C078,Northstar Electric,2026-07-17,944.43,891.27,53.16,Short paid,84,True
+C079,Evergreen Components,2026-05-03,3260.99,3260.99,0.0,Paid,159,False
+C080,Evergreen Components,2026-07-12,853.97,0.0,853.97,Unpaid,89,True
+C081,Acme Lighting,2026-08-01,1492.81,1492.81,0.0,Paid,69,False
+C082,Beacon Electrical,2026-07-27,3526.86,3526.86,0.0,Paid,74,False
+C083,Beacon Electrical,2026-05-29,3154.4,3154.4,0.0,Paid,133,False
+C084,Northstar Electric,2026-07-10,3437.47,3437.4700000000003,-0.0,Paid,91,False
+C085,Beacon Electrical,2026-07-29,1959.51,0.0,1959.51,Unpaid,72,True
+C086,Metro Wire & Cable,2026-08-01,4255.04,4255.04,0.0,Paid,69,False
+C087,Brightway Supply,2026-06-29,3904.89,3904.89,0.0,Paid,102,False
+C088,Summit Controls,2026-06-13,1160.43,0.0,1160.43,Unpaid,118,True
+C089,Northstar Electric,2026-08-16,2236.81,2236.81,0.0,Paid,54,False
+C090,Brightway Supply,2026-06-20,3063.95,3099.0,-35.05,Overpaid,111,False
+C091,Brightway Supply,2026-08-01,2622.42,2606.81,15.61,Short paid,69,True
+C092,Metro Wire & Cable,2026-07-06,2596.47,0.0,2596.47,Unpaid,95,True
+C093,Summit Controls,2026-05-10,3260.52,3260.52,0.0,Paid,152,False
+C094,Summit Controls,2026-05-26,2675.6,2675.6,0.0,Paid,136,False
+C095,Evergreen Components,2026-09-06,3612.68,3569.93,42.75,Short paid,33,False
+C096,Metro Wire & Cable,2026-06-19,459.13,0.0,459.13,Unpaid,112,True
+C097,Metro Wire & Cable,2026-09-13,2985.45,2926.85,58.6,Short paid,26,False
+C098,Metro Wire & Cable,2026-06-14,1679.22,1600.44,78.78,Short paid,117,True
+C099,Brightway Supply,2026-06-14,3253.21,3283.23,-30.02,Overpaid,117,False
+C100,Metro Wire & Cable,2026-05-31,968.34,884.93,83.41,Short paid,131,True
+C101,Acme Lighting,2026-09-24,3292.24,3292.24,0.0,Paid,15,False
+C102,Pacific Switchgear,2026-05-20,3277.57,3277.57,0.0,Paid,142,False
+C103,Pacific Switchgear,2026-05-20,2763.43,2763.43,0.0,Paid,142,False
+C104,Northstar Electric,2026-06-09,1032.31,1032.31,0.0,Paid,122,False
+C105,Lumen Co,2026-09-13,2229.49,2229.49,0.0,Paid,26,False
+C106,Acme Lighting,2026-05-03,3546.69,3546.69,0.0,Paid,159,False
+C107,Summit Electrical,2026-07-12,2897.95,2897.95,0.0,Paid,89,False
+C108,Apex Breakers,2026-08-19,2555.39,2555.39,0.0,Paid,51,False
+C109,Summit Electrical,2026-07-30,1702.12,1702.12,0.0,Paid,71,False
+C110,Brightway Supply,2026-05-27,1514.46,1514.46,0.0,Paid,135,False
+C111,Northstar Electric,2026-07-29,3156.42,3156.42,0.0,Paid,72,False
+C112,Brightway Supply,2026-05-08,841.7,841.7,0.0,Paid,154,False
+C113,Metro Wire & Cable,2026-08-09,1001.77,1001.77,0.0,Paid,61,False
+C114,Northstar Electric,2026-05-19,1924.78,1924.78,0.0,Paid,143,False
+C115,Apex Breakers,2026-05-28,1653.95,1653.95,0.0,Paid,134,False
+C116,Lumen Co,2026-05-02,4168.65,4168.65,0.0,Paid,160,False
+C117,Lumen Co,2026-06-03,4746.94,4746.94,0.0,Paid,128,False
+C118,Summit Electrical,2026-07-21,444.13,444.13,0.0,Paid,80,False
+C119,Apex Breakers,2026-05-30,2674.63,2674.63,0.0,Paid,132,False
+C120,Pacific Switchgear,2026-07-12,1896.59,1896.59,0.0,Paid,89,False
+C121,Brightway Supply,2026-06-21,2283.14,2283.14,0.0,Paid,110,False
+C122,Acme Lighting,2026-06-13,3471.95,3471.95,0.0,Paid,118,False
+C123,Apex Breakers,2026-08-20,4039.89,4039.8900000000003,-0.0,Paid,50,False
+C124,Lumen Co,2026-05-18,469.81,469.81,0.0,Paid,144,False
+C125,Northstar Electric,2026-05-08,1228.61,1228.61,0.0,Paid,154,False
+C126,Lumen Co,2026-08-26,4010.32,4010.3199999999997,0.0,Paid,44,False
+C127,Pacific Switchgear,2026-07-02,1414.27,1414.27,0.0,Paid,99,False
+C128,Lumen Co,2026-05-01,1575.06,1575.06,0.0,Paid,161,False
+C129,Pacific Switchgear,2026-09-03,2448.72,2448.72,0.0,Paid,36,False
+C130,Brightway Supply,2026-05-31,1352.36,1352.3600000000001,-0.0,Paid,131,False
+C131,Acme Lighting,2026-06-20,3951.09,3951.09,0.0,Paid,111,False
+C132,Summit Electrical,2026-08-08,3237.5,3237.5,0.0,Paid,62,False
+C133,Acme Lighting,2026-05-11,2078.71,2078.71,0.0,Paid,151,False
+C134,Lumen Co,2026-08-15,3679.7,3679.7,0.0,Paid,55,False
+C135,Metro Wire & Cable,2026-07-30,2953.79,2953.79,0.0,Paid,71,False
+C136,Apex Breakers,2026-09-18,2755.16,2755.16,0.0,Paid,21,False
+C137,Apex Breakers,2026-09-20,917.39,917.39,0.0,Paid,19,False
+C138,Summit Electrical,2026-05-25,1158.54,1158.54,0.0,Paid,137,False
+C139,Acme Lighting,2026-06-14,1700.48,1700.48,0.0,Paid,117,False
+C140,Lumen Co,2026-06-15,2046.33,2046.33,0.0,Paid,116,False
+C141,Metro Wire & Cable,2026-05-31,1827.61,1827.6100000000001,-0.0,Paid,131,False
+C142,Metro Wire & Cable,2026-08-14,717.54,717.54,0.0,Paid,56,False
+C143,Lumen Co,2026-08-31,1419.04,1317.36,101.68,Short paid,39,False
+C144,Acme Lighting,2026-09-05,3238.09,2694.29,543.8,Short paid,34,False
+C145,Metro Wire & Cable,2026-05-04,1028.11,801.46,226.65,Short paid,158,True
+C146,Northstar Electric,2026-06-09,432.21,199.16,233.05,Short paid,122,True
+C147,Summit Electrical,2026-06-03,294.07,179.76,114.31,Short paid,128,True
+C148,Brightway Supply,2026-06-18,2221.35,2187.0,34.35,Short paid,113,True
+C149,Acme Lighting,2026-07-17,1791.48,1670.08,121.4,Short paid,84,True
+C150,Summit Electrical,2026-09-12,2922.05,2481.46,440.59,Short paid,27,False
+C151,Brightway Supply,2026-05-28,3528.12,3342.79,185.33,Short paid,134,True
+C152,Summit Electrical,2026-07-02,4651.11,4278.69,372.42,Short paid,99,True
+C153,Northstar Electric,2026-09-05,3483.77,3101.3,382.47,Short paid,34,False
+C154,Acme Lighting,2026-08-17,2223.46,1743.71,479.75,Short paid,53,False
+C155,Metro Wire & Cable,2026-09-11,1258.81,1037.32,221.49,Short paid,28,False
+C156,Northstar Electric,2026-08-01,2644.99,2328.36,316.63,Short paid,69,True
+C157,Apex Breakers,2026-06-20,620.49,140.61,479.88,Short paid,111,True
+C158,Lumen Co,2026-08-21,4726.37,4628.9,97.47,Short paid,49,False
+C159,Lumen Co,2026-08-23,1318.32,1115.36,202.96,Short paid,47,False
+C160,Lumen Co,2026-05-18,653.26,599.65,53.61,Short paid,144,True
+C161,Lumen Co,2026-06-20,3668.18,3484.76,183.42,Short paid,111,True
+C162,Apex Breakers,2026-06-30,3248.72,3237.47,11.25,Short paid,101,True
+C163,Brightway Supply,2026-09-08,3947.38,3430.48,516.9,Short paid,31,False
+C164,Pacific Switchgear,2026-06-17,1073.07,802.29,270.78,Short paid,114,True
+C165,Pacific Switchgear,2026-08-11,4669.06,4264.85,404.21,Short paid,59,False
+C166,Pacific Switchgear,2026-08-26,1351.45,919.4,432.05,Short paid,44,False
+C167,Northstar Electric,2026-07-15,2317.1,2089.6,227.5,Short paid,86,True
+C168,Brightway Supply,2026-07-14,3063.4,2982.97,80.43,Short paid,87,True
+C169,Acme Lighting,2026-08-27,2757.87,0.0,2757.87,Unpaid,43,False
+C170,Summit Electrical,2026-05-08,2517.49,0.0,2517.49,Unpaid,154,True
+C171,Summit Electrical,2026-07-13,1669.78,0.0,1669.78,Unpaid,88,True
+C172,Lumen Co,2026-07-22,3362.11,0.0,3362.11,Unpaid,79,True
+C173,Summit Electrical,2026-09-06,4536.74,0.0,4536.74,Unpaid,33,False
+C174,Northstar Electric,2026-05-08,2481.9,0.0,2481.9,Unpaid,154,True
+C175,Pacific Switchgear,2026-07-30,3970.59,0.0,3970.59,Unpaid,71,True
+C176,Summit Electrical,2026-07-16,2833.63,0.0,2833.63,Unpaid,85,True
+C177,Apex Breakers,2026-09-01,1498.55,0.0,1498.55,Unpaid,38,False
+C178,Pacific Switchgear,2026-06-01,3512.52,0.0,3512.52,Unpaid,130,True
+C179,Brightway Supply,2026-09-19,441.1,0.0,441.1,Unpaid,20,False
+C180,Acme Lighting,2026-09-21,2651.04,0.0,2651.04,Unpaid,18,False
+C181,Northstar Electric,2026-05-05,4785.08,0.0,4785.08,Unpaid,157,True
+C182,Acme Lighting,2026-06-29,1708.69,0.0,1708.69,Unpaid,102,True
+C183,Metro Wire & Cable,2026-08-12,2085.5,0.0,2085.5,Unpaid,58,False
+C184,Pacific Switchgear,2026-07-23,695.43,0.0,695.43,Unpaid,78,True
+C185,Acme Lighting,2026-06-09,2367.46,0.0,2367.46,Unpaid,122,True
+C186,Pacific Switchgear,2026-05-13,4102.0,0.0,4102.0,Unpaid,149,True
+C187,Acme Lighting,2026-07-22,960.65,0.0,960.65,Unpaid,79,True
+C188,Summit Electrical,2026-09-20,4247.95,0.0,4247.95,Unpaid,19,False
+C189,Lumen Co,2026-08-16,1976.99,0.0,1976.99,Unpaid,54,False
+C190,Acme Lighting,2026-07-10,4168.33,0.0,4168.33,Unpaid,91,True
+C191,Lumen Co,2026-05-21,2978.44,0.0,2978.44,Unpaid,141,True
+C192,Acme Lighting,2026-06-29,871.48,0.0,871.48,Unpaid,102,True
+C193,Summit Electrical,2026-05-06,4334.53,0.0,4334.53,Unpaid,156,True
+C194,Summit Electrical,2026-09-15,1733.51,1761.86,-28.35,Overpaid,24,False
+C195,Acme Lighting,2026-07-31,2617.65,2665.05,-47.4,Overpaid,70,False
+C196,Brightway Supply,2026-09-26,1248.33,1280.84,-32.51,Overpaid,13,False
+C197,Lumen Co,2026-09-21,3378.23,3397.46,-19.23,Overpaid,18,False
+C198,Apex Breakers,2026-05-07,2632.92,2659.84,-26.92,Overpaid,155,False
+C199,Metro Wire & Cable,2026-08-25,1131.29,1153.99,-22.7,Overpaid,45,False
+C200,Metro Wire & Cable,2026-06-12,4342.75,4364.02,-21.27,Overpaid,119,False

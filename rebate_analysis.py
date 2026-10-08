@@ -9,11 +9,14 @@ import pandas as pd
 # Find the folder where this script is saved
 HERE = Path(__file__).resolve().parent
 
-# Change these if the business rules change
+# Create a folder to save the results
+RESULT = HERE / "result"
+RESULT.mkdir(exist_ok=True)
+
+# business rules
 TOLERANCE = 1.00
 OVERDUE_DAYS = 60
-AS_OF = pd.Timestamp("2026-10-09")  # Use a fixed date for the demo
-
+AS_OF = pd.Timestamp("2026-10-09") 
 
 # 1. Read the two CSV files
 claims = pd.read_csv(HERE / "claims.csv")
@@ -84,10 +87,9 @@ print(f"Total received:    ${results['amount_paid'].sum():,.2f}")
 print(f"Needs follow-up:   ${not_paid['owed'].sum():,.2f}")
 print(f"Overdue claims:    {not_paid['overdue'].sum()}")
 
-# Save both the full results and the follow-up list
-results.to_csv(HERE / "reconciliation_results.csv", index=False)
-not_paid.to_csv(HERE / "not_paid.csv", index=False)
-
+# Save the results in the result folder
+results.to_csv(RESULT / "reconciliation_results.csv", index=False)
+not_paid.to_csv(RESULT / "not_paid.csv", index=False)
 
 # 6. Show how much each supplier still owes
 by_supplier = not_paid.groupby("supplier")["owed"].sum().sort_values()
@@ -98,10 +100,10 @@ if not by_supplier.empty:
     plt.title("Outstanding rebate claims by supplier")
     plt.xlabel("Amount owed ($)")
     plt.tight_layout()
-    plt.savefig(HERE / "owed_by_supplier.png")
+    plt.savefig(RESULT / "owed_by_supplier.png")
     plt.close()
     print("Saved chart to owed_by_supplier.png")
 else:
     print("No unpaid claims to chart.")
 
-print("Saved results to reconciliation_results.csv and not_paid.csv")
+print("Saved results in the result folder")
